@@ -10,4 +10,4 @@ The "English" website is: http://www.developermemo.com/1262721/   (be careful go
 
 Anyway, the hashing code uses open cv to read files, but, it probably can be easily modified to work with any image loading lib.
 
-The rest of the code is done in WinAPI (non-MFC). It uses a tree view to group similar images. Clicking on an entry will open the image for viewing.
+The rest of the code is done in WinAPI (non-MFC). It uses a tree view to group similar images. Clicking on an entry will open the image for viewing. You can also delete the file or open the current directory fro, here too. When deleting a file, the tree view doesnt get updated, I will add that eventually.
